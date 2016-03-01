@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AspNet.HealthCheck</id>
+    <version>$version$</version>
+    <title>AspNet HealthCheck</title>
+    <authors>ProqualIT, Dan Ryan</authors>
+    <owners>Dan Ryan</owners>
+    <licenseUrl>https://github.com/DannyRyman/AspNet.Healthcheck/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/DannyRyman/AspNet.Healthcheck</projectUrl>    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Expose an endpoint to test the health of your service.  Support for checking dependent services such as databases or other web endpoints.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright &#x00A9; ProqualIT Ltd.  All rights reserved.</copyright>
+    <tags>AspNet Asp.Net Health HealthCheck</tags>
+	<dependencies>
+    </dependencies> 
+  </metadata>
+  <files>
+	<file src="bin\$configuration$\AspNetHealthCheck.dll" target="lib\net40\" />
+  </files>
+</package>
