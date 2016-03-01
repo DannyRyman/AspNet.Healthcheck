@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HealthCheckConfig.cs" />
+    <Compile Include="HealthCheckExtensions.cs" />
     <Compile Include="HealthCheckHandler.cs" />
     <Compile Include="HealthCheckResponse.cs" />
     <Compile Include="HealthCheckStep.cs" />
